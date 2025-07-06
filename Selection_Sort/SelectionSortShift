@@ -1,0 +1,16 @@
+Selection Sort Shifting Problem
+The Selection Sort algorithm can be improved a little bit more.
+Shifting other elements when an array element is inserted.
+
+In the SelectionSort.py , the lowest value element is removed, and then inserted in front of the array.
+
+Each time the next lowest value array element is removed, all following elements must be shifted one place down to make up for the removal.
+
+Shifting other elements when an array element is removed.
+These shifting operation takes a lot of time, and we are not even done yet! After the lowest value (5) is found and removed, it is inserted at the start of the array, causing all following values to shift one position up to make space for the new value, like the image below shows.
+
+Shifting other elements when an array element is inserted.
+Note: You will not see these shifting operations happening in the code if you are using a high level programming language such as Python or Java, but the shifting operations are still happening in the background. Such shifting operations require extra time for the computer to do, which can be a problem.
+
+
+
