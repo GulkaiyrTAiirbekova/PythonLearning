@@ -27,3 +27,10 @@ import random
 
 print(random.triangular(20, 60, 30))
 
+import random
+
+mylist = ["apple", "banana", "cherry"]
+random.shuffle(mylist)
+
+print(mylist)
+
