@@ -39,4 +39,16 @@ def myfunc(n):
 mydoubler = myfunc(2)
 
 print(mydoubler(11))
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+
+thislist.extend(thistuple)
+
+print(thislist) 
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+
+thislist.extend(thistuple)
+
+print(thislist) 
 
